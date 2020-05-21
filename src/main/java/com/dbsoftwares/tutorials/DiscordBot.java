@@ -15,7 +15,7 @@ public class DiscordBot
     {
         try
         {
-            jda = JDABuilder.createDefault( "NzEyOTk2ODcxNjU1Nzg0NTE5.XsZsOg.yjgMzhpve-Mz4lGuVLsVdQ0vRkc" ).build();
+            jda = JDABuilder.createDefault( "YOUR_TOKEN_HERE" ).build();
             jda.addEventListener( new MessageListener() );
         }
         catch ( LoginException e )
